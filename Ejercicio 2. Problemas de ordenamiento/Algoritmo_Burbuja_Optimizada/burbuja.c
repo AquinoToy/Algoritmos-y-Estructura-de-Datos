@@ -4,7 +4,7 @@ Autor: Omar Ivan Salinas Aquino
 Version: 1.1 Marzo 2025
 
 Descripcion: Programa que implementa el algoritmo de ordenamiento Burbuja
-para un arreglo de un tamaño determinado.
+para un arreglo de numeros enteros de un tamaño determinado.
 
 Compilacion:
 Windows: gcc burbuja.c -o burbuja.exe
@@ -21,14 +21,14 @@ Ejecución:
 #define TRUE 1
 #define FALSE 0
 
-void BurbujaOptimizada(int *A, int n);
-void Algoritmo(int *A, int n);
+void BurbujaOptimizada(int *A, int n); // Prototipo de funcion. Recibe int * direccion del arreglo A, int n tamaño del arreglo
 int main(int num_args, char *cadena_args[])
 {
     // Variables para la medición de tiempos
     clock_t t_inicio, t_final;
     double t_intervalo;
 
+    // Variables para el algoritmo
     int i, n, *A;
 
     // Recibir por argumento el tamaño de n
@@ -75,26 +75,33 @@ int main(int num_args, char *cadena_args[])
 /*
 void BurbujaOptimizada(int *A, int n);
 Descripcion: Ordena los elelementos de un arreglo A de tamaño n.
-Recibe: Un arreglo A, y el tamaño del arreglo n.
-Devuelve: El arreglo A con sus elementos ordenados.
-Observaciones:
+Recibe: int * direccion de un arreglo A, int n tamanio del arreglo.
+Devuelve: void (No retorna valor explicito).
+Observaciones: Funcion que ordena los valores del arreglo A de tamanio n
+en razon de O(n^2)
 */
 
 void BurbujaOptimizada(int *A, int n)
 {
     int i, j, aux, cambios;
+    // Inicializar variables
     cambios = TRUE;
     i = 0;
-    while (i <= n - 2 && cambios != FALSE)
+    // Se inicia el bucle que recorre todos los elementos del arreglo y verifica si hay cambios
+    while (i <= (n - 2) && cambios != FALSE)
     {
         cambios = FALSE;
+        // Bucle que compara elementos adyacentes del arreglo
         for (j = 0; j <= (n - 2) - i; j++)
         {
-            if (A[j] < A[j + 1])
+            // Condicion que compara si el elemento de la posicion [j] es menor a [j+1]
+            if (A[j] > A[j + 1])
             {
+                // Si se cumple la condicion intercambia los elementos del arreglo
                 aux = A[j];
                 A[j] = A[j + 1];
                 A[j + 1] = aux;
+                // Cambia la variable 'cambios' a 'si' o 'TRUE'
                 cambios = TRUE;
             };
         }
