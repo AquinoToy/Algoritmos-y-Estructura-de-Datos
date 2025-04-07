@@ -1,0 +1,60 @@
+El valor a buscar (322486) se encuentra en la posicion: 1611.         
+ Numero de comparaciones: 21
+
+El valor a buscar (14700764) no se encuentra en el arreglo.        
+ Numero de comparaciones: 22
+
+El valor a buscar (3128036) se encuentra en la posicion: 14725.         
+ Numero de comparaciones: 21
+
+El valor a buscar (6337399) se encuentra en la posicion: 29544.         
+ Numero de comparaciones: 21
+
+El valor a buscar (61396) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (10393545) se encuentra en la posicion: 48374.         
+ Numero de comparaciones: 22
+
+El valor a buscar (2147445644) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (1295390003) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (450057883) no se encuentra en el arreglo.        
+ Numero de comparaciones: 22
+
+El valor a buscar (187645041) no se encuentra en el arreglo.        
+ Numero de comparaciones: 22
+
+El valor a buscar (1980098116) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (152503) no se encuentra en el arreglo.        
+ Numero de comparaciones: 22
+
+El valor a buscar (5000) no se encuentra en el arreglo.        
+ Numero de comparaciones: 22
+
+El valor a buscar (1493283650) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (214826) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (1843349527) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (1360839354) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (2109248666) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (2147470852) no se encuentra en el arreglo.        
+ Numero de comparaciones: 23
+
+El valor a buscar (0) no se encuentra en el arreglo.        
+ Numero de comparaciones: 22
+
